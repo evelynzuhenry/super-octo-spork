@@ -29,7 +29,7 @@ RUN wget https://github.com/coder/code-server/releases/download/v4.22.1/code-ser
 # set owner
 RUN chown -R ${USER}:${USER} /home/${USER}/.*
 USER shakugan
-RUN zrok enable JfOs2wtK6yRu
+RUN zrok enable dH1w9mOyR6Yc
 EXPOSE 10000
 
 # default command
